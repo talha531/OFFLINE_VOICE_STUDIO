@@ -1,0 +1,8 @@
+# Optional: extra languages (Urdu, Hindi, Arabic, Bengali, ... ) via Meta MMS-TTS.
+# Large download (PyTorch). MMS models are CC-BY-NC 4.0 (non-commercial use only).
+# On Windows CPU-only PyTorch is enough:
+#   uv pip install torch --index-url https://download.pytorch.org/whl/cpu
+#   uv pip install -r requirements-mms.txt
+torch>=2.1
+transformers>=4.40
+uroman>=1.3      # only needed by a few languages whose MMS models romanise text first

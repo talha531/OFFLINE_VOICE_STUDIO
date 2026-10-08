@@ -1,0 +1,6 @@
+# Optional: multilingual voice cloning (Chatterbox, 23 languages). Large download (PyTorch).
+# chatterbox-tts pins specific torch/numpy/transformers versions; install it in a venv that does
+# NOT also contain coqui-tts (XTTS), or accept that one of the two may not import.
+# Windows CPU-only PyTorch:
+#   uv pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+chatterbox-tts>=0.1.4

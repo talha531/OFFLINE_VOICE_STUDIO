@@ -1,0 +1,8 @@
+# Optional: real offline voice cloning (Coqui XTTS-v2). Large download (PyTorch).
+# XTTS-v2 weights are under the Coqui Public Model License (non-commercial use only).
+# Windows CPU-only PyTorch:
+#   uv pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+#   uv pip install -r requirements-cloning.txt
+torch>=2.1
+torchaudio>=2.1
+coqui-tts>=0.26
